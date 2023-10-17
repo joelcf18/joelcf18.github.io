@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Formulario</title>
+<link rel="stylesheet" href="../css/css.css"/>
+</head>
+<body>
+	<div class="menu">
+	<header>
+			<img src="../imagenes_video/logo.jpg" alt="logo"/>
+	</header>
+		<nav>
+			<ul>
+				<li><a href="../index.html">Inicio</a></li>
+				<li><a href="eSports.html">¿Qué son los eSports?</a></li>
+				<li><a href="juegos.html">Los juegos más jugados</a></li>
+				<li><a href="ligas.html">Ligas y Trofeos</a></li>
+				<li><a href="formulario.html">Formulario Inscripción</a></li>
+			</ul>
+		</nav>
+</div>
+<section>
+	<div class="formulario">
+	<form action="#">
+	<fieldset>
+	<legend>Formulario Inscripción</legend>
+	<label for="nombre">Nombre:</label><br>
+	<input type="text" name="nombre" placeholder="Ingerese su nombre" id="nombre" />
+	<br>
+	<label for="apellido1">Primer Apellido:</label><br>
+	<input type="text" name="apellido" placeholder="Ingerese su Primer Apellido" id="apellido1" />
+	<br>
+	<label for="apellido2">Segundo Apellido:</label><br>
+	<input type="text" name="apellido" placeholder="Ingerese su Segundo Apellido" id="apellido2"/>
+	<br>
+	<label for="correo">Correo:</label><br>
+	<input type="email" name="correo" placeholder="Ingerese su Correo" id="correo" />
+	<br>
+	<label for="sexo">Género:</label><br>
+	<input type="radio" name="sexo" id="sexoM" value="H"/> Masculino
+	<input type="radio" name="sexo" id="sexoF" value="F"/> Femenino
+	<input type="radio" name="sexo" id="sexoB" value="N"/> No binario
+	<br>
+	<label for="edad">Fecha de Nacimiento:</label>
+	<input type="date" id="edad" name="fecha"
+       value="2022-01-01"
+       min="1950-01-01" max="2005-01-01"><br>
+	<label>Juego De Inscripción </label>
+	<select>
+		<option value="1">Valorant</option>
+		<option value="2">LoL</option>
+		<option value="3">CS:GO</option>
+		<option value="4">Rocket League</option>
+		<option value="5">Otros</option>
+	</select><br>
+
+	<label for="comentario">Comentarios:</label><br>
+	<textarea name="comentario" id="comentario" rows="6" cols="30"></textarea><br>
+		</fieldset> 
+
+	<input type="reset" value="Reiniciar">
+	<button type="button" onclick="JavaScript:alert('Formulario Enviado')">Enviar</button> 
+	</form>
+
+</div>
+
+
+
+</section>
+<hr>
+<footer class="pie_pagina">
+<div class="direccion">
+	<h3>Dirección</h3>
+	<p>Calle La marquesa<br>Nº15 33400<br>Bajo Comercial</p>
+</div>
+<div class="contacto">
+	<h3>Contactos</h3>
+	<p>654987321</p>
+	<p>963852741</p>
+	<p>info@gmail.com</p>
+</div>
+	<small>Derechos reservados &copy; 2020-2023</small>
+</footer>
+</body>
+</html>

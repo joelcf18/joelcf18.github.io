@@ -1,0 +1,384 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  background-image: url(../imagenes_video/fondo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'calibri';
+}
+
+h2
+{
+  font-size: 30px;
+}
+
+.menu,.menu header img
+{
+  position: fixed;
+  background-color: #2b0058;
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.menu
+{
+  margin: 0 auto;
+  padding-right: 25px;
+  width: 100%;
+}
+
+.menu header img
+{
+  width: 150px;
+  height: 70px;
+  float: left;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 25px;
+}
+
+.menu nav,small
+{
+  float: right;
+}
+
+.menu nav ul li
+{
+  list-style: none;
+  margin-left: 75px;
+  display: inline-block;
+  padding: 25px 0;
+}
+
+.menu nav ul li a
+{
+  font-weight: 700;
+  color: #fff;
+}
+
+.menu nav ul li a::before
+{
+  display: inline-block;
+  content: '';
+  height: 5px;
+  top: 0;
+  position: absolute;
+  background: #fff;
+  transition: .2s;
+}
+
+.menu nav ul li a:hover::before
+{
+  width: 40px;
+}
+
+.tituloindex
+{
+  color: #fff;
+}
+
+.tituloesports
+{
+  text-decoration: underline;
+  color: #f26b1d;
+}
+
+.juegos
+{
+  border: 5px solid #2b0058;
+  font-size: 20px;
+  padding: 50px 100px;
+  color: #fff;
+  margin-left: 100px;
+  margin-right: 400px;
+  margin-bottom: 50px;
+}
+
+.juegos img
+{
+  width: 700px;
+  height: 400px;
+  margin-left: 19%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border: 5px solid #23e8ff;
+}
+
+.juegos h1
+{
+  font-size: 2em;
+  color: #f26b1d;
+}
+
+.juegos h1,.juegos h2
+{
+  text-decoration: underline;
+}
+
+video
+{
+  margin-left: 600px;
+}
+
+table
+{
+  margin-left: 350px;
+  border-collapse: collapse;
+}
+
+td
+{
+  padding: 50px;
+}
+
+.juegos,.trofeos,tr
+{
+  background-color: #000;
+}
+
+caption-side,tr
+{
+  color: #fff;
+}
+
+.tabla img
+{
+  width: 350px;
+  height: 360px;
+}
+
+.cabecera
+{
+  font-size: 1.5em;
+  background-color: gray;
+}
+
+.trofeos
+{
+  border: 5px solid #2b0058;
+  font-size: 20px;
+  margin: auto;
+  padding: 50px 100px;
+  width: 70%;
+}
+
+.trofeos img,aside,table,td,tr
+{
+  border: 5px solid #23e8ff;
+}
+
+.trofeos img
+{
+  margin-bottom: 3%;
+  width: 700px;
+  height: 400px;
+  margin-left: 19%;
+  margin-top: 3%;
+}
+
+form,h1,h2,table
+{
+  text-align: center;
+}
+
+form
+{
+  font-size: 25px;
+  padding-top: 25px;
+}
+
+legend
+{
+  background-color: gray;
+  padding: 5px 10px;
+  font-weight: 700;
+}
+
+fieldset
+{
+  margin: auto;
+  padding: 50px;
+  border-radius: 7px;
+  width: 700px;
+  background-color: #2b0058;
+}
+
+section
+{
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.juegos h2,em,first-letter
+{
+  color: #23e8ff;
+}
+
+h1,h2
+{
+  color: #f26b1d;
+}
+
+p
+{
+  text-align: justify-all;
+}
+
+hr
+{
+  border: 0;
+  height: 2px;
+  width: 95%;
+  margin-left: 2%;
+  margin-right: 2%;
+  background: #fff;
+  background-image: linear-gradient(to right,#292929,#fff,#292929);
+}
+
+small
+{
+  padding-right: 5px;
+}
+
+ol,ul
+{
+  padding-left: 50px;
+}
+
+first-letter
+{
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+aside h2,em
+{
+  text-decoration: underline;
+}
+
+aside
+{
+  padding: 15px;
+  background-color: #000;
+  position: fixed;
+  margin-top: 150px;
+  margin-left: 80%;
+  width: 365px;
+  height: auto;
+  font-size: 1.5em;
+}
+
+.menu nav ul li a,aside p a
+{
+  text-decoration: none;
+}
+
+.enlaceaside:hover,caption-side
+{
+  background-color: #23e8ff;
+}
+
+.enlaceaside:active,.trofeos,aside p a,form,legend,p
+{
+  color: #fff;
+}
+
+.textoinfluencia,.textonegocios
+{
+  padding-top: 70px;
+}
+
+.apartados,.cuerpo
+{
+  margin: auto;
+  width: 70%;
+  background-color: #000;
+  color: #fff;
+}
+
+.apartados
+{
+  padding-top: 50px;
+  padding-bottom: 75px;
+  height: 470px;
+  border-radius: 30px;
+}
+
+.apartados img
+{
+  border: 2px solid #025373;
+  margin-left: 100px;
+  width: 540px;
+  height: 320px;
+  border-radius: 50px;
+}
+
+.apartados p
+{
+  margin-left: 700px;
+  margin-right: 50px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.apartados h2
+{
+  padding-left: 670px;
+  padding-bottom: 25px;
+  color: #f26b1d;
+}
+
+.apartados ul
+{
+  padding-left: 930px;
+}
+
+.cuerpo
+{
+  border: 5px solid #2b0058;
+  font-size: 20px;
+  padding: 50px 100px;
+}
+
+.primerafotoesports,.segundafotoesports
+{
+  width: 700px;
+  height: 400px;
+  margin-left: 19%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border: 5px solid #23e8ff;
+}
+
+.pie_pagina
+{
+  padding-top: 20px;
+  padding-left: 5%;
+  background-color: #011526;
+  color: #fff;
+}
+
+.contacto,.direccion
+{
+  padding-bottom: 25px;
+  float: left;
+}
+
+.contacto
+{
+  padding-bottom: 20px;
+  padding-left: 25px;
+}
+
+footer
+{
+  background-color: #011526;
+}
